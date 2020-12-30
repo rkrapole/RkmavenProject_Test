@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+	<title>Contact Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="contact-title">
+		<form id="contact-form"method="post" action="phpfile.php">
+		<input name="name" type="text" class="form-control" placeholder="your Name" required>
+		<br>
+		<input name="email" type="email" class="form-control" placeholder="your Email" required>
+		<br>
+			<textarea name="message" class="form-control" placeholder="Enter Message here" row="4" required></textarea>	
+			<br>
+
+			<input type="submit" class="form-control submit" value="SEND MESSAGE">
+		</form>
+	</div>
+</body>
+</html>
