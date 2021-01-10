@@ -22,3 +22,4 @@
 	header("Location: index.html");
 
 ?>
+<img src="TechPage.jpeg">
